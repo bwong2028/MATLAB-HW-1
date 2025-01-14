@@ -1,0 +1,42 @@
+clear
+help sphereToCube
+ [sideLength] = sphereToCube(radius)
+ user will enter radius
+ function will calculuate the volume of sphere 
+ with that radius and return the side length 
+ of a cube with the equivalent volume
+ the variables radius and sideLength are of type double
+
+help crateSize
+ this script will calculate the side length
+ of one crate that will hold all of the
+ playdough balls that have been transformed into cubes
+ user will input number of balls and ball radius, both are of type double
+ program will output side length of entire cubed crate, which is type double
+
+sphereToCube(8)
+
+ans =
+
+   12.8959
+
+sphereToCube(12)
+
+ans =
+
+   19.3439
+
+crateSize
+Enter number of balls: 3000
+Enter ball radius: 8
+The side length of the crate needed is: 
+  193.4390
+
+crateSize
+Enter number of balls: 6000
+Enter ball radius: 4
+The side length of the crate needed is: 
+  122.5114
+
+% Byron Wong, bw540, 232001450
+diary off
